@@ -30,12 +30,12 @@ def main():
     # Load environment variables from config.env file
     load_dotenv()
 
-    API_KEY = os.getenv("OPENCAGE_API_KEY")
+    API_KEY = os.getenv("11e0d6f8fd894f3e872d8aca6500a572")
     if not API_KEY:
         print("Error: API key not found in environment variables.")
         return
 
-    phone_number = input("Enter the PhoneNumber with the country code : ")
+    phone_number = input("17877189728")
 
     location, service_provider = get_location_and_service_provider(phone_number)
     if not location:
